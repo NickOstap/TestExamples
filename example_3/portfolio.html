@@ -124,12 +124,12 @@
 	<div class="project">
 		<div class="container">
 			<div class="row">
-					<div class="btn-group col-lg-12 justify-content-center" role="group" aria-label="Basic example">
+					<div class="btn-group col-lg-12 justify-content-center" id="project-type" role="group" aria-label="Basic example">
 							<button type="button" class="btn btn_col btn-secondary">All</button>
 							<button type="button" class="btn btn_col btn-secondary">Web Design</button>
 							<button type="button" class="btn btn_col btn-secondary">Mobile App</button>
 							<button type="button" class="btn btn_col btn-secondary">Illustration</button>
-							<button type="button" class="btn btn_col btn-secondary">Photography</button>
+							<button type="button" class="btn btn_col btn-secondary" data-type="Photography">Photography</button>
 						  </div>
 				<div class="project_text col-lg-12">
 					<h1>Our Latest Projects.</h1>
@@ -138,8 +138,8 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
-					<div class="phone first_blocks col-lg-4">
+			<div class="row" id="projects">
+					<div class="phone first_blocks col-lg-4" data-type="Photography">
 						<img src="img/project_phone.png" alt="phone">
 						<h1 class="web_h1">Claritas Etiam Processus</h1>
 						<p class="web_p1">Photography, Nature</p>
@@ -149,12 +149,12 @@
 						<h1 class="web_h1">Quam Nutamus Farum</h1>
 						<p class="web_p1">Graphic Design, Mock-Up</p>
 					</div>
-					<div class="book first_blocks col-lg-4">
+					<div class="book first_blocks col-lg-4" data-type="Photography">
 						<img src="img/project_book.png" alt="phone">
 						<h1 class="web_h1">Usus Legentis Videntur</h1>
 						<p class="web_p1">Photography, Holiday</p>
 				</div>
-					<div class="phone first_blocks col-lg-4">
+					<div class="phone first_blocks col-lg-4" data-type="Photography">
 						<img src="img/project_bird.png" alt="phone">
 						<h1 class="web_h1">Claritas Etiam Processus</h1>
 						<p class="web_p1">Photography, Nature</p>
@@ -164,7 +164,7 @@
 						<h1 class="web_h1">Quam Nutamus Farum</h1>
 						<p class="web_p1">Graphic Design, Mock-Up</p>
 					</div>
-					<div class="book first_blocks col-lg-4">
+					<div class="book first_blocks col-lg-4" data-type="Photography">
 						<img src="img/project_sea.png" alt="phone">
 						<h1 class="web_h1">Usus Legentis Videntur</h1>
 						<p class="web_p1">Photography, Holiday</p>
@@ -453,7 +453,7 @@
 						<a href="#"><img src="img/last_pic.png" alt=""></a>
 					</div>
 					</div>
-				</div>
+			 	</div>
 			</div>
 		</div>
 		<footer class="footer">
@@ -473,9 +473,9 @@
 				</div>
 			</div>
 		</footer>
-	<script src="../example_3/js/main.js"></script>
+	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+	<script src="../example_3/js/main.js"></script>
 </body>
 </html>
