@@ -227,6 +227,9 @@ ul, li{
 	text-decoration: none;
 	color: #949494;
 }
+.projec a:hover {
+	text-decoration: none;
+}
 .project{
 	padding-top: 80px;
 }
